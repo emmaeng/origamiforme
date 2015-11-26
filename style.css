@@ -1,0 +1,219 @@
+body
+{
+	font-family:arial, helvetica, sans-serif;
+	background-color: #F3F3F3;
+	overflow-y: scroll;
+	text-decoration: none;
+}
+
+p
+{
+	text-align: center;
+}
+
+h5
+{
+	text-align: center;
+}
+
+.content-area
+{
+	text-decoration: none;
+}
+
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
+}
+
+h2
+{
+	text-align: center;
+}
+
+#container
+{
+	max-width: 960px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 32px;
+	background-color: #FFF;
+	overflow: hidden;
+}
+
+#footer
+{
+	max-width: 960px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 32px;
+	background-color: #818181;
+	overflow: hidden;
+}
+
+#img-con
+{
+	max-width: 400px;
+	max-height: 550px;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #818181;
+	overflow: hidden;
+	float: right;
+}
+
+#youtube
+{
+	text-align: center;
+	position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+#social-media
+{
+	text-align: center;
+}
+
+p
+{
+	text-decoration: none;
+}
+
+h2
+{
+	text-decoration: none;
+	
+}
+
+h3
+{
+	text-align: center;
+}
+
+header
+{
+	background-color: #666;
+	height: 150px;
+	padding: 4px;
+	overflow: hidden;
+}
+
+header h1
+{
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	line-height: 50px;
+}
+
+header h2
+{
+	color: #FFF;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+.img-first
+{
+	max-width: 100%;
+	margin: 6px 0 0 6px;
+    box-shadow: 0 0 0 4px #fff;
+}
+
+.his
+{
+	margin: 6px 0 0 6px;
+    box-shadow: 0 0 0 4px #fff;
+}
+
+.one
+{
+	max-width: 100%;
+}
+
+.navbar
+{
+	background-color: #818181;
+	text-align: center;
+	padding: 5px 0;
+	line-height: 32px;
+}
+
+.navbar li
+{
+	display: inline;
+}
+
+.navbar a
+{
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: none;
+	padding: 12px 15px 13px 15px;
+}
+
+.navbar a:hover
+{
+	background-color: #CCC;
+	color: #666;
+	
+}
+
+/* media screen phone and tablet */
+@media screen and (max-width: 650px) 
+{ 
+	
+	
+	.navbar
+	{
+		display: block;
+		width: 100%
+		height: auto;
+		padding: 0;
+	}
+	
+	.navbar li
+	{
+		display: block;
+		
+	}
+	
+	.navbar a
+	{
+		display: block;
+		padding: 0;
+	}
+
+	.img-first
+	{
+		max-width: 100%;
+	}
+	
+	.his
+	{
+		max-width: 100%;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
