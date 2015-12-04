@@ -1,3 +1,4 @@
+/* content */
 body
 {
 	font-family:arial, helvetica, sans-serif;
@@ -75,6 +76,7 @@ h2
 	text-align: center;
 }
 
+/* content */
 p
 {
 	text-decoration: none;
@@ -207,6 +209,7 @@ header h2
 	
 }
 
+/* media query for responsive images */
 @media screen and (max-width: 536px)
 {
 	#img-con
@@ -224,7 +227,8 @@ header h2
 	}
 	
 }
-	
+
+/* media querys to make the images responsive and unpadded*/
 @media screen and (max-width: 672px)
 {
 	.img-first
@@ -247,6 +251,8 @@ header h2
 	}
 }
 
+
+/* media query to make the picture appear instead of the youtube video*/
 @media screen and (max-width: 910px)
 	{
 		#youtube
